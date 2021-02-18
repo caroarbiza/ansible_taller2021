@@ -1,0 +1,11 @@
+[ubuntu]
+ubuntu1 ansible_host=192.168.56.103
+
+[centos]
+centos1 amsible_host=192.168.56.102
+
+[linux:children]
+ubuntu
+centos
+
+
